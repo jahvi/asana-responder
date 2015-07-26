@@ -9,7 +9,7 @@
         <form action="{{ url() }}" method="post">
             <div class="form-group">
                 <div class="input-group input-group-lg">
-                    <input type="text" name="message" value="{{ Auth::user()->message }}" class="form-control" placeholder="Get creative!">
+                    <input type="text" name="message" value="{{ Auth::user()->message }}" class="form-control" placeholder="Get creative!" autofocus>
                     <span class="input-group-btn">
                         <button class="btn btn-primary">Save</button>
                     </span>
