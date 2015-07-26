@@ -4,7 +4,7 @@
     <div class="jumbotron">
         <h1>Hello, {{ Auth::user()->name }}!</h1>
         <p>
-            Enter some text below and it will be sent automatically as a reply when a task gets assigned to you.
+            Enter some text below and it will be sent automatically as a reply when a task gets assigned to you. <a href="{{ url('logout') }}">Logout</a>
         </p>
         <form action="{{ url() }}" method="post">
             <div class="form-group">
